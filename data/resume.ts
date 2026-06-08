@@ -29,7 +29,7 @@ export const personal = {
 };
 
 export const summary =
-  "I'm a Senior Software Engineer and Tech Lead at Tesla, where I lead work on internal engineering platforms. On the side I'm doing an MS in Biomedical Engineering at Johns Hopkins. Based in Palo Alto, with native Spanish and some bad French.";
+  "I'm a Senior Software Engineer and Tech Lead at Tesla, where I lead engineering platform work — building tooling that engineers across the company rely on every day. On the side I'm doing an MS in Biomedical Engineering at Johns Hopkins. Based in Palo Alto.";
 
 export const experience: Experience[] = [
   {
