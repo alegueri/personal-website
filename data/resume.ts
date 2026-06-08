@@ -29,7 +29,7 @@ export const personal = {
 };
 
 export const summary =
-  "Senior Software Engineer and Tech Lead at Tesla with 4 years' experience designing distributed systems and shipping AI-powered tooling at scale. Two promotions in 3 years; portfolio of $22M+/year in validated business impact. Currently pursuing an MS in Biomedical Engineering at Johns Hopkins University with a focus in neuroengineering.";
+  "I'm a Senior Software Engineer and Tech Lead at Tesla, where I lead work on internal engineering platforms. On the side I'm doing an MS in Biomedical Engineering at Johns Hopkins. Based in Palo Alto, with native Spanish and some bad French.";
 
 export const experience: Experience[] = [
   {
@@ -37,14 +37,10 @@ export const experience: Experience[] = [
     company: "Tesla",
     dates: "July 2022 – Present",
     bullets: [
-      "Advanced from Associate to Senior Software Engineer in under 3 years (two promotions, Apr 2025); recipient of Tesla performance cash award (Oct 2024).",
-      "Led engineers building internal engineering platform tooling generating an estimated $22M+/year in validated time savings across the organization.",
-      "Designed and implemented a notification system using Kafka, Kubernetes, and Golang, generating an estimated $18.8M in business impact.",
-      "Architected and shipped a full-stack web application (Next.js, React, Go microservices, Kafka, S3) replacing legacy tooling — 10X performance improvement, 99.76% uptime, ~2000 daily users; reduced approval cycle time from ~20 days to 8 days (60% reduction); $3.1M/year validated savings.",
-      "Spearheaded AI integration into engineering workflows — production features achieving 97% classification accuracy, eliminating ~6,000 hours/year of manual review ($1.2M/year validated savings).",
-      "Engineered and optimized ETL pipelines for efficient data consumption via gRPC and REST APIs, leveraging Go, MySQL, and Temporal workflows.",
-      "Mentored engineers and delegated major features while maintaining technical accountability; contributed to the hiring pipeline through 3+ technical screens and panel interviews; mentored intern through to full-time conversion.",
-      "Assumed Acting Product Manager responsibilities (Apr 2026 – Present), owning backlog prioritization, product strategy, and stakeholder alignment after PM departure.",
+      "Two promotions in 3 years; Senior Software Engineer + Tech Lead since Apr 2025; currently also acting PM.",
+      "Led engineering platform tooling generating $22M+/year in validated time savings across the org.",
+      "Designed and shipped a Kafka / Kubernetes / Go notification system worth ~$18.8M in business impact.",
+      "Spearheaded AI integration that eliminated ~6,000 hours/year of manual work at 97% accuracy ($1.2M/year saved).",
     ],
   },
   {
@@ -52,10 +48,7 @@ export const experience: Experience[] = [
     company: "Bombardier, Mitsubishi Heavy Industries",
     dates: "May 2019 – Aug 2020",
     bullets: [
-      "Managed 50+ projects across the enterprise, ensuring budget and schedule adherence; chaired monthly status meetings with Managers and Senior Director.",
-      "Led a team of 6 professionals coordinating university partnerships; successfully recruited 26 interns.",
-      "Negotiated university contracts, reducing cost overhead by 2%.",
-      "Built Python tooling for Oracle database access to streamline project reporting.",
+      "Managed 50+ enterprise projects; led a team of 6 coordinating university partnerships and recruiting 26 interns.",
     ],
   },
   {
@@ -88,12 +81,6 @@ export const education: Education[] = [
     degree: "Bachelor of Engineering, Mechatronics Engineering",
     institution: "McMaster University",
     dates: "Sept 2016 – Apr 2022",
-    details: [
-      "Golden Key Award (top 15% of the faculty).",
-      "Future Leader Recognition Award for exemplary co-op work.",
-      "Dean's Honour List — 3.7 GPA (4.0 scale).",
-      "McMaster's Faculty of Engineering Entrance Award.",
-    ],
   },
   {
     degree: "Machine Learning Certificate",
@@ -143,9 +130,5 @@ export const skills: SkillGroup[] = [
       "Grafana",
       "Splunk",
     ],
-  },
-  {
-    label: "Spoken Languages",
-    items: ["English (Native)", "Spanish (Native)", "French (Beginner)"],
   },
 ];
