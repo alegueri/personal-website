@@ -75,7 +75,10 @@ export const education: Education[] = [
     institution:
       "Johns Hopkins University, Whiting School of Engineering — Engineering for Professionals",
     dates: "Sept 2025 – Present",
-    details: ["Focus area: Neuroengineering."],
+    details: [
+      "Focus area: Neuroengineering.",
+      "Completed coursework: Physiology for Applied BME I & II, Mathematical Methods for Applied BME.",
+    ],
   },
   {
     degree: "Bachelor of Engineering, Mechatronics Engineering",
@@ -86,6 +89,7 @@ export const education: Education[] = [
       "Future Leader Recognition Award for exemplary co-op work.",
       "Dean's Honour List — 3.7 GPA (4.0 scale).",
       "McMaster's Faculty of Engineering Entrance Award.",
+      "Capstone project — TriAuto: Co-developed an automated hospital triage system with a 4-person team using React, Node.js, MySQL, and Socket.IO.",
     ],
   },
   {
@@ -106,6 +110,7 @@ export const skills: SkillGroup[] = [
       "Java",
       "C++",
       "Haskell",
+      "MATLAB",
       "SQL",
     ],
   },
