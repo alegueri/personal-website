@@ -85,7 +85,7 @@ export const education: Education[] = [
       "Johns Hopkins University, Whiting School of Engineering — Engineering for Professionals",
     dates: "Sept 2025 – Present",
     details: [
-      "Focus area: Neuroengineering.",
+      "Focus area: Neuroengineering. Current GPA: 3.90/4.0.",
       "Completed coursework: Physiology for Applied BME I & II, Mathematical Methods for Applied BME.",
     ],
   },
