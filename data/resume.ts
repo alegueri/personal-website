@@ -90,13 +90,13 @@ export const education: Education[] = [
     ],
   },
   {
-    degree: "Bachelor of Engineering, Mechatronics Engineering",
+    degree: "Bachelor of Engineering with Distinction, Mechatronics Engineering",
     institution: "McMaster University",
     dates: "Sept 2016 – Apr 2022",
     details: [
+      "Dean's Honour List (multi-time).",
       "Golden Key Award (top 15% of the faculty).",
       "Future Leader Recognition Award for exemplary co-op work.",
-      "Dean's Honour List — 3.7 GPA (4.0 scale).",
       "McMaster's Faculty of Engineering Entrance Award.",
     ],
   },
