@@ -18,9 +18,18 @@ export type SkillGroup = {
   items: string[];
 };
 
+export type Project = {
+  name: string;
+  context: string;
+  dates: string;
+  description: string;
+  stack?: string[];
+};
+
 export const personal = {
   name: "Alessandra Guerinoni",
-  title: "Senior Software Engineer, Tech Lead",
+  title: "Senior Software Engineer & Neuroengineering Student",
+  tagline: "Applying distributed systems to neuroscience & clinical tech.",
   location: "Palo Alto, CA",
   email: "ale.guerinoni@gmail.com",
   linkedin: "https://linkedin.com/in/alessandraguerinoni",
@@ -89,7 +98,6 @@ export const education: Education[] = [
       "Future Leader Recognition Award for exemplary co-op work.",
       "Dean's Honour List — 3.7 GPA (4.0 scale).",
       "McMaster's Faculty of Engineering Entrance Award.",
-      "Capstone project — TriAuto: Co-developed an automated hospital triage system with a 4-person team using React, Node.js, MySQL, and Socket.IO.",
     ],
   },
   {
@@ -141,5 +149,16 @@ export const skills: SkillGroup[] = [
       "Grafana",
       "Splunk",
     ],
+  },
+];
+
+export const projects: Project[] = [
+  {
+    name: "TriAuto",
+    context: "McMaster University Capstone",
+    dates: "Sept 2021 – Apr 2022",
+    description:
+      "Emergency department triage is a manual, high-stakes classification: nurses assign each incoming patient an acuity level (CTAS 1–5) based on symptoms and vitals. When EDs get overwhelmed, mis-triage can delay care for the most vulnerable patients. Co-developed a real-time decision-support system with a 4-person team that ingests patient intake data and produces a recommended acuity classification, giving nurses a second-check during busy shifts.",
+    stack: ["React", "Node.js", "MySQL", "Socket.IO"],
   },
 ];

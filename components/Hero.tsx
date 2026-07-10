@@ -10,8 +10,11 @@ export default function Hero() {
             <h1 className="text-4xl font-semibold tracking-tight text-zinc-900 sm:text-5xl dark:text-zinc-50">
               {personal.name}
             </h1>
-            <p className="text-lg text-zinc-600 dark:text-zinc-400">
-              {personal.title} · {personal.location}
+            <p className="text-lg text-zinc-700 dark:text-zinc-300">
+              {personal.title}
+            </p>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">
+              {personal.tagline} · {personal.location}
             </p>
           </div>
           <p className="max-w-2xl text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
