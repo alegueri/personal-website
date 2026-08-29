@@ -52,8 +52,8 @@ export const experience: Experience[] = [
       "Architected and shipped a full-stack web application (Next.js, React, Go microservices, Kafka, S3) replacing legacy tooling — 10× performance, 99.76% uptime, 60% cycle time reduction; $3.1M/year validated savings.",
       "Spearheaded AI integration that eliminated ~6,000 hours/year of manual work at 97% accuracy ($1.2M/year saved).",
       "Built ETL pipelines (Go, MySQL, Temporal) exposing engineering data to internal services via gRPC and REST; ~$10M in validated business impact.",
-      "Mentored engineers and drove hiring through technical screens and panel interviews; sponsored an intern through to full-time conversion.",
-      "Assumed Acting Product Manager responsibilities (Apr 2026 – Present) after PM departure — backlog prioritization, product strategy, and stakeholder alignment.",
+      "Mentored engineers, drove hiring through technical screens and panel interviews, and sponsored an intern through to full-time conversion.",
+      "Acting Product Manager since Apr 2026 — owning backlog prioritization, product strategy, and stakeholder alignment after PM departure.",
     ],
   },
   {
