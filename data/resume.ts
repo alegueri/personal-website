@@ -111,33 +111,48 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    label: "Cloud & Infrastructure",
+    label: "Backend & Data",
+    items: [
+      "Kafka",
+      "Temporal",
+      "MySQL",
+      "Redis",
+      "gRPC",
+      "Protobuf",
+      "REST",
+      "OAuth",
+      "JWT",
+    ],
+  },
+  {
+    label: "Cloud & DevOps",
     items: [
       "AWS",
       "Azure",
       "Docker",
       "Kubernetes",
       "S3",
-      "Kafka",
-      "Temporal",
-      "Redis",
-    ],
-  },
-  {
-    label: "Frameworks & Tools",
-    items: [
-      "Next.js",
-      "React",
-      "Node.js",
-      "REST",
-      "gRPC",
-      "OAuth",
-      "JWT",
+      "Jenkins",
+      "ArgoCD",
+      "GitHub Actions",
       "Prometheus",
       "Grafana",
       "Splunk",
     ],
   },
+  {
+    label: "Frontend",
+    items: ["Next.js", "React", "Node.js"],
+  },
 ];
 
-export const projects: Project[] = [];
+export const projects: Project[] = [
+  {
+    name: "TriAuto — Real-Time Decision-Support System",
+    context: "McMaster University Capstone",
+    dates: "Sept 2021 – Apr 2022",
+    description:
+      "Co-developed with a 4-person team a full-stack web application that ingests structured input data, applies a classification ruleset, and pushes recommendations to a live dashboard over WebSocket.",
+    stack: ["React", "Node.js", "Socket.IO", "MySQL"],
+  },
+];
