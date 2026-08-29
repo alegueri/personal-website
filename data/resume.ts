@@ -28,8 +28,8 @@ export type Project = {
 
 export const personal = {
   name: "Alessandra Guerinoni",
-  title: "Senior Software Engineer & Neuroengineering Student",
-  tagline: "Applying distributed systems to neuroscience & clinical tech.",
+  title: "Senior Software Engineer, Tech Lead",
+  tagline: "Distributed systems, engineering platforms, AI-powered tooling.",
   location: "Palo Alto, CA",
   email: "ale.guerinoni@gmail.com",
   linkedin: "https://linkedin.com/in/alessandraguerinoni",
@@ -38,7 +38,7 @@ export const personal = {
 };
 
 export const summary =
-  "I'm a Senior Software Engineer and Tech Lead at Tesla, where I lead engineering platform work — building tooling that engineers across the company rely on every day. On the side I'm doing an MS in Biomedical Engineering at Johns Hopkins. Based in Palo Alto.";
+  "I'm a Senior Software Engineer and Tech Lead at Tesla, where I lead engineering platform work — building tooling that engineers across the company rely on every day. Based in Palo Alto.";
 
 export const experience: Experience[] = [
   {
@@ -80,16 +80,6 @@ export const experience: Experience[] = [
 
 export const education: Education[] = [
   {
-    degree: "Master of Science, Applied Biomedical Engineering",
-    institution:
-      "Johns Hopkins University, Whiting School of Engineering — Engineering for Professionals",
-    dates: "Sept 2025 – Present",
-    details: [
-      "Focus area: Neuroengineering. Current GPA: 3.90/4.0.",
-      "Completed coursework: Physiology for Applied BME I & II, Mathematical Methods for Applied BME.",
-    ],
-  },
-  {
     degree: "Bachelor of Engineering with Distinction, Mechatronics Engineering",
     institution: "McMaster University",
     dates: "Sept 2016 – Apr 2022",
@@ -117,8 +107,6 @@ export const skills: SkillGroup[] = [
       "Python",
       "Java",
       "C++",
-      "Haskell",
-      "MATLAB",
       "SQL",
     ],
   },
@@ -152,13 +140,4 @@ export const skills: SkillGroup[] = [
   },
 ];
 
-export const projects: Project[] = [
-  {
-    name: "TriAuto",
-    context: "McMaster University Capstone",
-    dates: "Sept 2021 – Apr 2022",
-    description:
-      "Emergency department triage is a manual, high-stakes classification: nurses assign each incoming patient an acuity level (CTAS 1–5) based on symptoms and vitals. When EDs get overwhelmed, mis-triage can delay care for the most vulnerable patients. Co-developed a real-time decision-support system with a 4-person team that ingests patient intake data and produces a recommended acuity classification, giving nurses a second-check during busy shifts.",
-    stack: ["React", "Node.js", "MySQL", "Socket.IO"],
-  },
-];
+export const projects: Project[] = [];
