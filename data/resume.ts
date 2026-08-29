@@ -47,9 +47,13 @@ export const experience: Experience[] = [
     dates: "July 2022 – Present",
     bullets: [
       "Two promotions in 3 years; Senior Software Engineer + Tech Lead since Apr 2025; currently also acting PM.",
-      "Led engineering platform tooling generating $22M+/year in validated time savings across the org.",
-      "Designed and shipped a Kafka / Kubernetes / Go notification system worth ~$18.8M in business impact.",
+      "Recruited to a critical org-wide engineering platform migration (~$100M in projected savings once complete); validated APIs, coordinated data migration, and unblocked change management for design data across the company.",
+      "Built a Kafka/Kubernetes/Go notification pipeline that gave multiple teams real-time access to engineering data, replacing manual polling and unlocking downstream automation; $18.8M in validated business impact.",
+      "Architected and shipped a full-stack web application (Next.js, React, Go microservices, Kafka, S3) replacing legacy tooling — 10× performance, 99.76% uptime, 60% cycle time reduction; $3.1M/year validated savings.",
       "Spearheaded AI integration that eliminated ~6,000 hours/year of manual work at 97% accuracy ($1.2M/year saved).",
+      "Built ETL pipelines (Go, MySQL, Temporal) exposing engineering data to internal services via gRPC and REST; ~$10M in validated business impact.",
+      "Mentored engineers and drove hiring through technical screens and panel interviews; sponsored an intern through to full-time conversion.",
+      "Assumed Acting Product Manager responsibilities (Apr 2026 – Present) after PM departure — backlog prioritization, product strategy, and stakeholder alignment.",
     ],
   },
   {
