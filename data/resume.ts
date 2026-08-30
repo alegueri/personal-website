@@ -49,7 +49,7 @@ export const experience: Experience[] = [
       "Two promotions in 3 years; Senior Software Engineer + Tech Lead since Apr 2025; currently also acting PM.",
       "Recruited to a critical org-wide engineering platform migration (~$100M in projected savings); shipped P1 bug fixes that prevented company-wide design work from halting, coordinated cross-team infrastructure, and unblocked change management for design data.",
       "Helped build a Kafka/Kubernetes/Go notification pipeline that gave multiple teams real-time access to engineering data, replacing manual polling and unlocking downstream automation; $18.8M in validated business impact.",
-      "Led a team to architect and ship a full-stack web application (Next.js, React, Go microservices, Kafka, S3) replacing legacy tooling; delivered 10× performance, 99.76% uptime, and 60% cycle time reduction; $3.1M/year validated savings.",
+      'Led a team to ship a full-stack "GitHub for engineering design data": a change review and release platform with 3D geometry and 2D PDF diff (Next.js, React, Go microservices, Kafka, S3); delivered 10× performance, 99.76% uptime, and 60% cycle time reduction; $3.1M/year validated savings.',
       "Spearheaded AI integration that eliminated ~6,000 hours/year of manual work at 97% accuracy ($1.2M/year saved).",
       "Helped build ETL pipelines (Go, MySQL, Temporal) exposing engineering data to internal services via gRPC and REST; ~$10M in validated business impact.",
       "Mentored engineers, drove hiring through technical screens and panel interviews, and sponsored an intern through to full-time conversion.",
