@@ -38,7 +38,7 @@ export const personal = {
 };
 
 export const summary =
-  "I'm a Senior Software Engineer and Tech Lead at Tesla, where I lead engineering platform work — building tooling that engineers across the company rely on every day. Based in Palo Alto.";
+  "I'm a Senior Software Engineer and Tech Lead at Tesla, where I lead engineering platform work, building tooling that engineers across the company rely on every day. Based in Palo Alto.";
 
 export const experience: Experience[] = [
   {
@@ -49,11 +49,11 @@ export const experience: Experience[] = [
       "Two promotions in 3 years; Senior Software Engineer + Tech Lead since Apr 2025; currently also acting PM.",
       "Recruited to a critical org-wide engineering platform migration (~$100M in projected savings once complete); validated APIs, coordinated data migration, and unblocked change management for design data across the company.",
       "Helped build a Kafka/Kubernetes/Go notification pipeline that gave multiple teams real-time access to engineering data, replacing manual polling and unlocking downstream automation; $18.8M in validated business impact.",
-      "Architected and shipped a full-stack web application (Next.js, React, Go microservices, Kafka, S3) replacing legacy tooling — 10× performance, 99.76% uptime, 60% cycle time reduction; $3.1M/year validated savings.",
+      "Architected and shipped a full-stack web application (Next.js, React, Go microservices, Kafka, S3) replacing legacy tooling; delivered 10× performance, 99.76% uptime, and 60% cycle time reduction; $3.1M/year validated savings.",
       "Spearheaded AI integration that eliminated ~6,000 hours/year of manual work at 97% accuracy ($1.2M/year saved).",
       "Helped build ETL pipelines (Go, MySQL, Temporal) exposing engineering data to internal services via gRPC and REST; ~$10M in validated business impact.",
       "Mentored engineers, drove hiring through technical screens and panel interviews, and sponsored an intern through to full-time conversion.",
-      "Acting Product Manager since Apr 2026 — owning backlog prioritization, product strategy, and stakeholder alignment after PM departure.",
+      "Acting Product Manager since Apr 2026, owning backlog prioritization, product strategy, and stakeholder alignment after PM departure.",
     ],
   },
   {
@@ -65,7 +65,7 @@ export const experience: Experience[] = [
     ],
   },
   {
-    role: "Teaching Assistant — Discrete Mathematics & Computational Thinking",
+    role: "Teaching Assistant, Discrete Mathematics & Computational Thinking",
     company: "McMaster Faculty of Engineering",
     dates: "Jan 2019 – Apr 2019 & Sept 2021 – Dec 2021",
     bullets: [
@@ -152,7 +152,7 @@ export const skills: SkillGroup[] = [
 
 export const projects: Project[] = [
   {
-    name: "TriAuto — Real-Time Decision-Support System",
+    name: "TriAuto: Real-Time Decision-Support System",
     context: "McMaster University Capstone",
     dates: "Sept 2021 – Apr 2022",
     description:
