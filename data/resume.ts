@@ -52,7 +52,7 @@ export const experience: Experience[] = [
       'Led a team to ship a full-stack "GitHub for engineering design data": a change review and release platform with 3D geometry and 2D PDF diff (Next.js, React, Go microservices, Kafka, S3); delivered 10× performance, 99.76% uptime, and 60% cycle time reduction; $3.1M/year validated savings.',
       "Spearheaded AI integration into the engineering change review workflow, shipping models that classify design changes at 97% accuracy and eliminate ~6,000 hours/year of manual review of design changes ($1.2M/year saved).",
       "Helped build ETL pipelines (Go, MySQL, Temporal) exposing engineering data to internal services via gRPC and REST; ~$10M in validated business impact.",
-      "Own production reliability for team platform services, including on-call rotation, incident response (with cross-team after-hours diagnoses), and observability via Prometheus, Grafana, and Splunk.",
+      "Own production reliability for team platform services (on-call, observability with Prometheus/Grafana/Splunk); routinely pulled in after hours to debug cross-team production incidents.",
       "Defined authorization architecture (OAuth, M2M, on-behalf-of flows) for platform services and negotiated API contracts with consumer teams.",
       "Mentored engineers, drove hiring through technical screens and panel interviews, and sponsored an intern through to full-time conversion.",
       "Acting Product Manager since Apr 2026, owning backlog prioritization, product strategy, and stakeholder alignment after PM departure.",
