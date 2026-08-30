@@ -53,7 +53,7 @@ export const experience: Experience[] = [
       "Spearheaded AI integration into the engineering change review workflow, shipping models that classify design changes at 97% accuracy and eliminate ~6,000 hours/year of manual review of design changes ($1.2M/year saved).",
       "Helped build ETL pipelines (Go, MySQL, Temporal) exposing engineering data to internal services via gRPC and REST; ~$10M in validated business impact.",
       "Own production reliability for team platform services, including on-call rotation, incident response (with cross-team after-hours diagnoses), and observability via Prometheus, Grafana, and Splunk.",
-      "Defined authorization architecture (OAuth, JWT, M2M, on-behalf-of flows) for platform services and negotiated API contracts with consumer teams.",
+      "Defined authorization architecture (OAuth, M2M, on-behalf-of flows) for platform services and negotiated API contracts with consumer teams.",
       "Mentored engineers, drove hiring through technical screens and panel interviews, and sponsored an intern through to full-time conversion.",
       "Acting Product Manager since Apr 2026, owning backlog prioritization, product strategy, and stakeholder alignment after PM departure.",
     ],
