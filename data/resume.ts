@@ -152,11 +152,11 @@ export const skills: SkillGroup[] = [
 
 export const projects: Project[] = [
   {
-    name: "TriAuto: Real-Time Decision-Support System",
+    name: "TriAuto: Automated Emergency Triage System",
     context: "McMaster University Capstone",
     dates: "Sept 2021 – Apr 2022",
     description:
-      "Co-developed with a 4-person team a full-stack web application that ingests structured input data, applies a classification ruleset, and pushes recommendations to a live dashboard over WebSocket.",
+      "Co-developed with a 4-person team a real-time clinical decision-support system for emergency department triage that ingests patient intake data and produces a recommended acuity classification (CTAS 1 to 5), giving nurses a second-check during overwhelmed shifts when mis-triage risks delaying care.",
     stack: ["React", "Node.js", "Socket.IO", "MySQL"],
   },
 ];
