@@ -59,11 +59,21 @@ export const experience: Experience[] = [
     ],
   },
   {
-    role: "Project Manager, Governance & University Collaboration",
+    role: "Project Manager & Governance Administrator",
     company: "Bombardier, Mitsubishi Heavy Industries",
     dates: "May 2019 – Aug 2020",
     bullets: [
-      "Managed 50+ enterprise projects; led a team of 6 coordinating university partnerships and recruiting 26 interns.",
+      "Managed 50+ enterprise projects; chaired monthly status meetings with Managers and Senior Director on critical initiatives.",
+      "Built Python tooling for Oracle database access to streamline project reporting.",
+    ],
+  },
+  {
+    role: "Lead Coordinator, University Collaboration Team",
+    company: "Bombardier, Mitsubishi Heavy Industries",
+    dates: "Sept 2019 – Aug 2020",
+    bullets: [
+      "Led a team of 6 professionals coordinating university partnerships; recruited 26 interns.",
+      "Negotiated university contracts, reducing cost overhead by 2%.",
     ],
   },
   {
@@ -85,6 +95,13 @@ export const experience: Experience[] = [
 ];
 
 export const education: Education[] = [
+  {
+    degree: "Master of Science, Applied Biomedical Engineering",
+    institution:
+      "Johns Hopkins University, Whiting School of Engineering (Engineering for Professionals)",
+    dates: "Sept 2025 – Present",
+    details: ["Current GPA: 3.90/4.0."],
+  },
   {
     degree: "Bachelor of Engineering with Distinction, Mechatronics Engineering",
     institution: "McMaster University",
