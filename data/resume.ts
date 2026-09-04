@@ -100,14 +100,12 @@ export const education: Education[] = [
     institution:
       "Johns Hopkins University, Whiting School of Engineering (Engineering for Professionals)",
     dates: "Sept 2025 – Present",
-    details: ["Current GPA: 3.90/4.0."],
   },
   {
     degree: "Bachelor of Engineering with Distinction, Mechatronics Engineering",
     institution: "McMaster University",
     dates: "Sept 2016 – Apr 2022",
     details: [
-      "Last two years GPA: 3.8/4.0.",
       "Dean's Honour List (multi-time).",
       "Golden Key Award (top 15% of the faculty).",
       "Future Leader Recognition Award for exemplary co-op work.",
