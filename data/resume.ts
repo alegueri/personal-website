@@ -98,7 +98,7 @@ export const education: Education[] = [
   {
     degree: "Master of Science, Applied Biomedical Engineering",
     institution:
-      "Johns Hopkins University, Whiting School of Engineering (Engineering for Professionals)",
+      "Johns Hopkins University, Whiting School of Engineering",
     dates: "Sept 2025 – Present",
   },
   {
